@@ -82,6 +82,9 @@
     <!-- Note: RequireIllegalAccess tests are now no longer valid as they only worked prior to java 16 -->
     <excludedGroups>TestcontainersTests,RequireIllegalAccess</excludedGroups>
 
+    <!-- Maven Version -->
+    <maven.version>3.9.10</maven.version>
+
     <!-- Automatic Module Name -->
     <module.name>org.mybatis</module.name>
 
@@ -126,13 +129,13 @@
     <dependency>
       <groupId>org.junit.jupiter</groupId>
       <artifactId>junit-jupiter-engine</artifactId>
-      <version>6.0.3</version>
+      <version>5.11.0</version>
       <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>org.junit.jupiter</groupId>
       <artifactId>junit-jupiter-params</artifactId>
-      <version>6.0.3</version>
+      <version>5.11.0</version>
       <scope>test</scope>
     </dependency>
     <dependency>
